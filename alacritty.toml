@@ -1,0 +1,70 @@
+# Migrated from alacritty.yml.
+# Compatible with modern Alacritty TOML configuration.
+
+live_config_reload = true
+
+[window]
+opacity = 1.0
+
+[window.padding]
+x = 2
+y = 2
+
+[scrolling]
+history = 10000
+multiplier = 10
+
+[selection]
+semantic_escape_chars = ",│`|:\"' ()[]{}<>"
+save_to_clipboard = true
+
+[font]
+size = 10.0
+
+[font.normal]
+family = "SauceCodePro Nerd Font"
+style = "Regular"
+
+[font.bold]
+family = "SauceCodePro Nerd Font"
+style = "Bold"
+
+[font.italic]
+family = "SauceCodePro Nerd Font"
+style = "Italic"
+
+[font.bold_italic]
+family = "SauceCodePro Nerd Font"
+style = "Bold Italic"
+
+[font.offset]
+x = 0
+y = 0
+
+[font.glyph_offset]
+x = 0
+y = 0
+
+[colors.primary]
+background = "#282c34"
+foreground = "#d6e7ea"
+
+[colors.normal]
+black = "#2A2829"
+red = "#fe180b"
+green = "#02C262"
+yellow = "#efc81a"
+blue = "#5F6DE7"
+magenta = "#a55dd5"
+cyan = "#3c91e6"
+white = "#d5e6ec"
+
+[colors.bright]
+black = "#928374"
+red = "#fb4934"
+green = "#b8bb26"
+yellow = "#fabd2f"
+blue = "#83a598"
+magenta = "#d3869b"
+cyan = "#8ec07c"
+white = "#ebdbb2"
